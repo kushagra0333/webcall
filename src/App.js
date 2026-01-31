@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   const [username, setUsername] = useState('');
   const [number, setNumber] = useState('');
-  const [serverUrl, setServerUrl] = useState('ws://localhost:3001');
+  const [serverUrl, setServerUrl] = useState('wss://webcall-91wi.onrender.com');
   const [connected, setConnected] = useState(false);
   const [clients, setClients] = useState([]);
   const [speakerId, setSpeakerId] = useState(null);
